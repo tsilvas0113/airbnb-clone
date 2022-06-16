@@ -5,6 +5,12 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+.container {
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+}
+
 .nav-box {
   display: flex;
   align-items: center;
@@ -13,7 +19,39 @@ body {
 }
 
 .logo {
-  width: 82px;
-  height: 35px;
+  width: 89px;
+  height: 29px;
   padding: 22px 0 22px 30px;
+}
+
+.hero-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 26px;
+}
+
+.photo-grid {
+  width: 396px;
+  height: 232px;
+}
+
+.hero-title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 40px;
+  margin-top: 32px;
+  margin-left: 36px;
+  align-self: flex-start;
+}
+
+.hero-text {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 18px;
+  margin-top: 16px;
+  margin-left: 36px;
+  color: #222222;
+  align-self: flex-start;
+  width: 320px;
 }
