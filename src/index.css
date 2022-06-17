@@ -55,3 +55,42 @@ body {
   align-self: flex-start;
   width: 320px;
 }
+
+.card-box {
+  display: flex;
+  flex-direction: column;
+  margin-top: 49px;
+  margin-left: 37px;
+}
+
+.katie {
+  width: 176px;
+  height: 235px;
+  border-radius: 9px;
+}
+
+.star {
+  width: 14px;
+  height: 14px;
+  margin-right: 2px;
+}
+
+.rating {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 13px;
+  margin-top: 9px;
+}
+
+.card-title {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 13px;
+  margin-top: 8px;
+}
+
+.cost {
+  font-size: 12px;
+  line-height: 13px;
+  margin-top: 8px;
+}
