@@ -7,7 +7,7 @@ import data from "./data";
 function App () {
     const elements = data.map(item => {
         return <Card 
-            id = {item.id}
+            key = {item.id}
             title = {item.title}
             description = {item.description}
             price = {item.price}
@@ -21,7 +21,9 @@ function App () {
         <div className="container">
             <Navbar />
             <Hero />
-            {elements}
+            <div className="card-list">
+                {elements}
+            </div>
         </div>
     )
 }

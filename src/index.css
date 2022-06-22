@@ -56,11 +56,18 @@ body {
   width: 320px;
 }
 
+.card-list {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
 .card-box {
   display: flex;
   flex-direction: column;
   margin-top: 49px;
   margin-left: 37px;
+  flex: 0 0 auto;
 }
 
 .katie {
@@ -87,6 +94,8 @@ body {
   font-size: 12px;
   line-height: 13px;
   margin-top: 8px;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .cost {
