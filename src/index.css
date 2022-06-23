@@ -68,6 +68,7 @@ body {
   margin-top: 49px;
   margin-left: 37px;
   flex: 0 0 auto;
+  position: relative;
 }
 
 .katie {
@@ -102,4 +103,15 @@ body {
   font-size: 12px;
   line-height: 13px;
   margin-top: 8px;
+}
+
+.card-badge {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
+  font-size: 10px;
 }
